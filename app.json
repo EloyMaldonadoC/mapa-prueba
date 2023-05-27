@@ -18,10 +18,14 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": { "apiKey": "<android maps api key>" }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eloymaldonado85.mapaprueba"
     },
     "web": {
       "favicon": "./assets/favicon.png"
